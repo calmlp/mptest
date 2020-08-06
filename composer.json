@@ -1,0 +1,19 @@
+{
+    "name": "calmlp/mptest",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "authors": [
+        {
+            "name": "lipeng",
+            "email": "lipeng_calmlp@sina.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Calmlp\\Mptest\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

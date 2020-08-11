@@ -19,4 +19,8 @@ class Mptest
     public function calculation($a,$b){
     	return $a+$b;
     }
+
+    public function hi($name){
+    	return 'hi '.$name;
+    }
 }

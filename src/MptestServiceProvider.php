@@ -13,7 +13,7 @@ class MptestServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        parent::register();
+        // parent::register();
         // 单例绑定服务
         $this->app->singleton('mptest', function () {
             return new Mptest(config('mptest'));

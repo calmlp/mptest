@@ -14,5 +14,6 @@
         "psr-4": {
             "Calmlp\\Mptest\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev-master"
 }
